@@ -41,26 +41,26 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="relative w-full m-10 max-w-2xl mx-auto bg-gradient-to-b from-white to-[#FFD633] rounded-[50px] p-[5px]">
+    <div className="relative w-full  max-w-2xl mx-auto  rounded-[50px] p-[3px]">
       {/* Image Slide */}
-      <div className="overflow-hidden  ">
+      <div className="overflow-hidden p-7">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className="w-full h-auto transition-all duration-700 ease-in-out  rounded-[50px]"
+          className="w-full h-auto transition-all duration-700 ease-in-out border-4  rounded-[50px] "
         />
       </div>
 
       {/* Navigation Buttons */}
       <button
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded-full hover:bg-opacity-70"
+        className="absolute top-1/2 left-12 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded-full hover:bg-opacity-70"
         onClick={prevSlide}
       >
         &#10094;
       </button>
 
       <button
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded-full hover:bg-opacity-70"
+        className="absolute top-1/2 right-12 transform -translate-y-1/2 text-white bg-black bg-opacity-50 px-3 py-1 rounded-full hover:bg-opacity-70"
         onClick={nextSlide}
       >
         &#10095;
