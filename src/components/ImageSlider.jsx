@@ -41,13 +41,13 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="relative w-full m-10 max-w-2xl mx-auto border-2 border-blue-500 rounded-2xl">
+    <div className="relative w-full m-10 max-w-2xl mx-auto bg-gradient-to-b from-white to-[#FFD633] rounded-[50px] p-[5px]">
       {/* Image Slide */}
-      <div className="overflow-hidden rounded-2xl shadow-lg">
+      <div className="overflow-hidden  ">
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className="w-full h-auto transition-all duration-700 ease-in-out"
+          className="w-full h-auto transition-all duration-700 ease-in-out  rounded-[50px]"
         />
       </div>
 
