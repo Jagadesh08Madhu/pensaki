@@ -60,7 +60,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav className="sticky top-0 shadow-lg shadow-black bg-white z-50">
+    <nav className="sticky top-0 shadow-lg shadow-gray-400 bg-white z-50">
       <section className="py-2.5 mx-5 md:container md:mx-auto flex justify-between items-center">
         {/* logo here  */}
         <Link to={"/"} className="flex items-center">

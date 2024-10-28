@@ -47,7 +47,7 @@ const ImageSlider = () => {
         <img
           src={images[currentIndex]}
           alt={`Slide ${currentIndex + 1}`}
-          className="w-full h-auto transition-all duration-700 ease-in-out border-4  rounded-[50px] "
+          className="w-full h-auto transition-all duration-700 ease-in-out border-4  lg:rounded-[50px] rounded-[20px]"
         />
       </div>
 
