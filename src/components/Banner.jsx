@@ -20,7 +20,7 @@ const Banner = () => {
         </div>
 
         {/* Image Slider component */}
-        <div className="lg:w-1/2 order-1 lg:order-2 mt-10 lg:mt-0 p-0 lg:p-14 lg: lg:animate-right animate-wiggle">
+        <div className="lg:w-1/2 order-1 lg:order-2 mt-10 lg:mt-0 p-0 lg:p-14 lg: lg:animate-right   animate-wiggle">
           <img className='h-auto' src={home1} alt="home1" />
         </div>
       </div>

@@ -44,11 +44,11 @@ export default function Navbar() {
     },
     {
       name: "Features",
-      link: "features"
+      link: "/features"
     },
     {
       name: "Products",
-      link: "products"
+      link: "/products"
     },
     {
       name: "FAQ?",

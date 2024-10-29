@@ -1,13 +1,13 @@
 import React from 'react'
 import Banner from '../components/Banner'
 import Marquee from '../components/Marquee'
-import Features from '../components/Features'
+import FeatureContent from '../components/FeatureContent'
 
 export default function Home() {
   return (
     <div>
       <Banner/>
-      <Features/>
+      <FeatureContent/>
       <Marquee/>
     </div>
   )
