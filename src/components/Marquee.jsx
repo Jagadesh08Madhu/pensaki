@@ -26,7 +26,7 @@ const Marquee = () => {
   ];
 
   return (
-    <section className='mx-5 md:container md:mx-auto'>
+    <section className='mx-5 md:container md:mx-auto my-10'>
         <h1 className='text-2xl lg:text-5xl text-center font-semibold my-10'>Pensaki BlackBoard Includes</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 ">
       {logos.map((logo, index) => (

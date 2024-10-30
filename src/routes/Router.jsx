@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Main from "../layouts/Main";
 import Home from "../pages/Home";
 import Features from "../pages/Features";
+import GlobalSupport from "../pages/GlobalSupport";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
             {
                 path:"/features",
                 element:<Features/>
+            },
+            {
+                path:"/support",
+                element:<GlobalSupport/>
             }
         ]
     }
