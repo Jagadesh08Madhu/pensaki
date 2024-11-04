@@ -7,6 +7,7 @@ import logo5 from '../assets/logo5.png';
 import logo6 from '../assets/logo6.png';
 import logo7 from '../assets/logo7.png';
 import logo8 from '../assets/logo8.png';
+import AboutFeature from '../components/AboutFeature';
 
 export default function Features() {
     const features = [
@@ -136,6 +137,7 @@ export default function Features() {
 
     return (
         <section className='mx-5 md:mx-auto md:container'>
+            <AboutFeature/>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5'>
                 {features.map((feature, i) => (
                     <div 
