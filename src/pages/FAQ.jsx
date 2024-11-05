@@ -58,9 +58,9 @@ const faqData = [
   },
   {
     question: "Is Pensaki Blackboard compatible with all web browsers?",
-    answer: "You can access the login page directly by click here-",
-    link: "https://office.bobosoho.com/",
-    linkname:"Pensaki Blackboard"
+    answer: "Yes, Pensaki Blackboard is designed to work seamlessly across all major web browsers, including Chrome, Firefox, Safari, and Edge. Click here to login-",
+    link: "https://office.bobosoho.com/login",
+    linkname:"Pensaki Blackboard login"
   }
 ];
 
