@@ -109,20 +109,20 @@ export default function Features() {
             link: "https://ifgaap.org/",
             linkName: "IFGAAP"
         },
-        {
-            image: logo8,
-            title: "Sosay",
-            description: [
-                "Sosay is a public and private communications platform for video publishing, photos, and opinions",
-                "5G cloud storage for video and image",
-                "Inscription to live sales platform as a seller storage",
-                "User friendly interface",
-                "Cost-effective solution",
-                "Click here to know more"
-            ],
-            link: "https://sosay.org/",
-            linkName: "Sosay"
-        },
+        // {
+        //     image: logo8,
+        //     title: "Sosay",
+        //     description: [
+        //         "Sosay is a public and private communications platform for video publishing, photos, and opinions",
+        //         "5G cloud storage for video and image",
+        //         "Inscription to live sales platform as a seller storage",
+        //         "User friendly interface",
+        //         "Cost-effective solution",
+        //         "Click here to know more"
+        //     ],
+        //     link: "https://sosay.org/",
+        //     linkName: "Sosay"
+        // },
     ];
 
     const colors = [
@@ -137,12 +137,49 @@ export default function Features() {
 
     return (
         <section className='mx-5 md:mx-auto md:container'>
-            <AboutFeature/>
+            <h1 className='text-center text-3xl font-semibold mt-10++++ lg:text-6xl'>Features</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5'>
-                {features.map((feature, i) => (
+                {features.slice(0,6).map((feature, i) => (
                     <div 
                         key={i} 
                         className='flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
+                    >
+                        <div className={`${colors[i % colors.length]} w-full rounded-b-[100px] flex items-center justify-center rounded-t-2xl`}>
+                            <img src={feature.image} alt={feature.title} />
+                        </div>
+
+                        <div>
+                            <h1 className='text-2xl lg:text-4xl mb-10 mt-10 text-center'>{feature.title}</h1>
+                        </div>
+
+                        <div>
+                            <ul className='flex flex-col gap-5 px-5 w-full max-w-full'>
+                                {feature.description.map((descri, idc) => (
+                                    <li 
+                                        className='px-1 relative pl-6 before:content-["✓"] before:absolute before:left-0 before:text-green-500' 
+                                        key={idc}
+                                    >
+                                        {descri}
+                                        {descri === "Click here to know more" && feature.link && (
+                                            <a href={feature.link} className='text-blue-500 hover:underline ml-2' target="_blank" rel="noopener noreferrer">
+                                                {feature.linkName}
+                                            </a>
+                                        )}
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
+
+
+            <div className='flex  justify-center gap-5'>
+                {features.slice(6).map((feature, i) => (
+                    <div 
+                        key={i} 
+                        className='w-[28%] flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
                     >
                         <div className={`${colors[i % colors.length]} w-full rounded-b-[100px] flex items-center justify-center rounded-t-2xl`}>
                             <img src={feature.image} alt={feature.title} />
