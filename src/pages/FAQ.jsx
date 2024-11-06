@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import about from '../assets/about.png';
+import feature from '../assets/feature.png';
 
 const faqData = [
   {
@@ -72,11 +72,11 @@ const FAQ = () => {
   };
 
   return (
-    <section className="flex gap-10 mx-5 md:mx-auto md:container my-20">
-      <div className="w-1/3">
-        <img className="p-5" src={about} alt="About" />
+    <section className="flex flex-col lg:flex-row gap-10 mx-5 md:mx-auto md:container lg:my-20 my-10">
+      <div className="lg:w-1/2 flex items-center">
+        <img className="lg:p-5" src={feature} alt="About" />
       </div>
-      <div className="w-[60%] mx-auto my-10 p-6 bg-white rounded-lg shadow-lg">
+      <div className="lg:w-[60%] my-10 lg:p-6 bg-white rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-center mb-6">Frequently Asked Questions</h2>
         <div className="space-y-4">
           {faqData.map((faq, index) => (

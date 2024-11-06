@@ -137,7 +137,7 @@ export default function Features() {
 
     return (
         <section className='mx-5 md:mx-auto md:container'>
-            <h1 className='text-center text-3xl font-semibold mt-10++++ lg:text-6xl'>Features</h1>
+            <h1 className='text-center text-5xl font-semibold my-5 lg:my-10 lg:text-6xl'>Features</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5'>
                 {features.slice(0,6).map((feature, i) => (
                     <div 
@@ -179,7 +179,7 @@ export default function Features() {
                 {features.slice(6).map((feature, i) => (
                     <div 
                         key={i} 
-                        className='w-[28%] flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
+                        className='lg:w-[28%] flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
                     >
                         <div className={`${colors[i % colors.length]} w-full rounded-b-[100px] flex items-center justify-center rounded-t-2xl`}>
                             <img src={feature.image} alt={feature.title} />
