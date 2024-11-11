@@ -12,7 +12,7 @@ export default function Products() {
       description: `Pensaki Pack - All-in-One Business Solution: Get Pensaki Doc Writer, Bitss Cyber Security, Pensaki PDF Converter, 
       Pensaki.one Email Anti-Spam Manager (Ad-Free), Omada HR, Omada Project Manager, Clasico Payslips, IFgaap Invoicing,
       IFgaap GL Accounting, Sosay, and Pensaki Vault Cloud Storage—all for just 3 euros per year for individual use.`,
-      price: "3€/Year",
+      price: "2€/Year",
       image: individualPack,
     },
     {

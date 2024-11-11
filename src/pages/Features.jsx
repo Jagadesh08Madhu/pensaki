@@ -7,6 +7,7 @@ import logo5 from '../assets/logo5.png';
 import logo6 from '../assets/logos/logo7.png';
 import logo7 from '../assets/logo7.png';
 import logo8 from '../assets/logo8.png';
+import logo9 from '../assets/logos/logo9.png';
 import AboutFeature from '../components/AboutFeature';
 
 export default function Features() {
@@ -123,6 +124,21 @@ export default function Features() {
         //     link: "https://sosay.org/",
         //     linkName: "Sosay"
         // },
+        {
+            image : logo9,
+            title: "Bobosoho",
+            description :[
+                "End-to-End Encryption Email Platform",
+                "Secure File Sharing Platform",
+                "Customizable User Interface Platform",
+                "Business Email Security Platform",
+                "Customizable Features Platform",
+                "Effortless User Experience Platform",
+                "Click here to know more"
+            ],
+            link: "https://bobosoho.com/",
+            linkName: "Bobosoho"
+        }
     ];
 
     const colors = [

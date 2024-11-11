@@ -8,6 +8,7 @@ import Products from "../pages/Products";
 import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import GeneralCondition from "../pages/GeneralCondition";
+import Contact from "../pages/Contact"
 
 export const router = createBrowserRouter([
     {
@@ -46,6 +47,10 @@ export const router = createBrowserRouter([
                 path: "/general",
                 element :<GeneralCondition/>
             },
+            {
+                path : "/contact",
+                element:<Contact/>
+            }
         ]
     }
 ])
