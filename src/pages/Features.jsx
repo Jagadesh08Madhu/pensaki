@@ -1,10 +1,10 @@
 import React from 'react';
-import logo1 from '../assets/logo1.png';
+import logo1 from '../assets/logos/logo1.png';
 import logo2 from '../assets/logo2.png';
 import logo3 from '../assets/logo3.png';
-import logo4 from '../assets/logo4.png';
+import logo4 from '../assets/logos/logo4.png';
 import logo5 from '../assets/logo5.png';
-import logo6 from '../assets/logo6.png';
+import logo6 from '../assets/logos/logo7.png';
 import logo7 from '../assets/logo7.png';
 import logo8 from '../assets/logo8.png';
 import AboutFeature from '../components/AboutFeature';
@@ -138,14 +138,14 @@ export default function Features() {
     return (
         <section className='mx-5 md:mx-auto md:container'>
             <h1 className='text-center text-5xl font-semibold my-5 lg:my-10 lg:text-6xl'>Features</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center '>
                 {features.slice(0,6).map((feature, i) => (
                     <div 
                         key={i} 
                         className='flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
                     >
-                        <div className={`${colors[i % colors.length]} w-full rounded-b-[100px] flex items-center justify-center rounded-t-2xl`}>
-                            <img src={feature.image} alt={feature.title} />
+                         <div className="w-full ml-5 mt-5">
+                            <img className='w-[100px] rounded-full border-black border-[2px] p-2' src={feature.image} alt={feature.title} />
                         </div>
 
                         <div>
@@ -181,9 +181,10 @@ export default function Features() {
                         key={i} 
                         className='lg:w-[28%] flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
                     >
-                        <div className={`${colors[i % colors.length]} w-full rounded-b-[100px] flex items-center justify-center rounded-t-2xl`}>
-                            <img src={feature.image} alt={feature.title} />
+                         <div className="w-full ml-5 mt-5">
+                            <img className='w-[100px] rounded-full border-black border-[2px] p-2' src={feature.image} alt={feature.title} />
                         </div>
+
 
                         <div>
                             <h1 className='text-2xl lg:text-4xl mb-10 mt-10 text-center'>{feature.title}</h1>

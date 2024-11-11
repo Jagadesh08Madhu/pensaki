@@ -7,7 +7,7 @@ import AboutFeature from '../components/AboutFeature'
 export default function Home() {
   return (
     <div>
-      <Banner/>
+      {/* <Banner/> */}
       <AboutFeature/>
       <FeatureContent/>
       <Marquee/>

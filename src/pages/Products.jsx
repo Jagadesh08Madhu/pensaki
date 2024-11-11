@@ -17,7 +17,7 @@ export default function Products() {
     },
     {
       id: 2,
-      title: "Individual Family Plan",
+      title: "Individual Family and Friends Plan",
       subtitle: "Share the Pensaki Pack with up to 30 family members and friends ",
       description: `Share the Pensaki Pack with up to 30 family members and friends for just €9.50 per year—an ideal solution for group access to premium features at a shared cost.`,
       price: "9.50€/Year",
