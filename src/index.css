@@ -5,7 +5,3 @@
 *{
     font-family: 'Google Sans', 'Roboto', 'Arial', 'sans-serif';
 }   
-
-.hover\\:animate-scroll-pause:hover {
-    animation-play-state: paused;
-  }
