@@ -33,7 +33,7 @@ export default function() {
             <img className='p-0 lg:p-20'  src={about} alt="" />
         </div>
         <div className='lg:w-1/2 flex flex-col gap-5 px-5 lg:px-0'>
-          <p className='text-lg lg:text-xl'>PENSAKI is s bundle of SaaS software for Individual ,Family and Friends, and Business user. users can be added online. pensaki is a a 
+          <p className='text-lg lg:text-xl'>PENSAKI is a bundle of SaaS software for Individual ,Family and Friends, and Business user. Users can be added online. pensaki is a a 
                 low cost package with high professional software features and includes:</p>
                 <div className="grid lg:grid-cols-2 grid-cols-1">
                     <div>

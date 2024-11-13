@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import feature from '../assets/feature.png';
+import { AccordionCustomIcon } from './AccordionCustomIcon';
 
 const faqData = [
   {
@@ -78,39 +79,12 @@ const FAQ = () => {
       </div>
       <div className="lg:w-[60%] my-10 lg:p-6 bg-white rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-center mb-6">Frequently Asked Questions</h2>
-        <div className="space-y-4">
-          {faqData.map((faq, index) => (
-            <div
-              key={index}
-              className="border-b border-gray-200 pb-4 cursor-pointer"
-              onClick={() => toggleAnswer(index)}
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="text-lg font-medium text-gray-800">{faq.question}</h3>
-                <span className={`transform transition-transform ${activeIndex === index ? 'rotate-180' : ''}`}>
-                  ▼
-                </span>
-              </div>
-              {activeIndex === index && (
-                <div className="mt-2 text-gray-600">
-                  {Array.isArray(faq.answer) ? (
-                    <ul className="list-disc ml-5 space-y-2">
-                      {faq.answer.map((item, i) => (
-                        <li key={i}>{item}</li>
-                        
-                      ))}
-                    </ul>
-                  ) : (
-                    <p>{faq.answer} <a className='text-blue-600 underline' href={faq.link}>{faq.linkname}</a></p>
-                  )}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
+        <AccordionCustomIcon/>
       </div>
     </section>
   );
+
+  
 };
 
 export default FAQ;

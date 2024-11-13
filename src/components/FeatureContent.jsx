@@ -2,7 +2,7 @@ import React from 'react';
 import logo1 from '../assets/logos/logo1.png';
 import logo2 from '../assets/logos/logo7.png';
 import logo3 from '../assets/logos/logo2.png';
-import logo4 from '../assets/logos/logo3.png';
+import logo4 from '../assets/blackboard.png';
 import featureBg from '../assets/featurebg.png';
 
 
@@ -36,11 +36,11 @@ export default function FeatureContent() {
         },
         {
             image: logo4,
-            title: "Omada-HR Payroll",
+            title: "Bundle of SaaS Products",
             description: [
-                "Omada-HR payroll used for task management for efficient workflow",
-                "Payslip generation and management",
-                "Attendance and time management"
+                "Pensaki Doc writer",
+                "Pensaki Pdf convertor",
+                "Pensaki vault cloud storage"
             ]
         }
     ];

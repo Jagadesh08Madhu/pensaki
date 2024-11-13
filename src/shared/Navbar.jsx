@@ -59,6 +59,7 @@ export default function Navbar() {
       name: "Global Support",
       link: "/support",
     },
+
   ];
 
   return (
