@@ -46,7 +46,7 @@ export default function FeatureContent() {
     ];
 
     return (
-        <section className='mx-5 md:mx-auto md:container flex justify-center flex-col items-center lg:w-[90%] '>
+        <section className='mx-5 md:mx-auto md:container flex justify-center flex-col items-center lg:w-[90~%] '>
             <h1 className='text-3xl lg:text-5xl font-semibold'>Pensaki pack</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10   bg-center bg-cover">
                 {features.map((feature, i) => (
