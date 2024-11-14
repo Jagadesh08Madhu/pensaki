@@ -36,7 +36,7 @@ export default function FeatureContent() {
         },
         {
             image: logo4,
-            title: "Bundle of SaaS Products",
+            title: "Bundle of SaaS 9 Products",
             description: [
                 "Pensaki Doc writer",
                 "Pensaki Pdf convertor",

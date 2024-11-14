@@ -75,7 +75,8 @@ export default function Footer() {
                   <img className=' mix-blend-darken' src={logo} alt="" />
                 </div>
                 <div className='flex flex-col gap-10'> 
-                    <h1 className='text-2xl lg:text-4xl'>Join Bfinit Cosmopolitan</h1>
+                    <h1 className='text-2xl lg:text-4xl font-semibold'>Join Bfinit Cosmopolitan</h1>
+                    <p className='text-lg lg:text-xl'>Get additional two months of free subscription</p>
                     <div className='flex gap-5 flex-col lg:flex-row'><input type="email" className='px-4 py-2 rounded-lg outline-orange-900 outline-double' placeholder='Enter your email' /> 
                     <button className='px-6 py-2 bg-orange-400 lg:ml-4 mml-0 rounded-lg'>Subscribe</button></div>
                 </div>
@@ -90,7 +91,7 @@ export default function Footer() {
                     <h1 className='text-2xl font-semibold'>Hosting Products</h1>
                     <div className='flex flex-col gap-5'>
                         {Hosting.map((hosting , i)=>(
-                          <Link to={hosting.link} key={i}>
+                          <Link target='_blank' to={hosting.link} key={i}>
                             {hosting.name}
                           </Link>
                         ))}

@@ -113,7 +113,7 @@ export default function Navbar() {
         )}
         
         {showNav && (
-          <div className="lg:hidden p-5 md:px-14 flex flex-col gap-4 absolute top-16 left-0 bg-white min-w-full h-80">
+          <div className="lg:hidden p-5 md:px-14 flex flex-col gap-4 absolute top-16 left-0 bg-white min-w-full ">
             {MenuItems.map((mi, i) => (
               <div key={i}>
                 {mi.child ? (
