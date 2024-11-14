@@ -76,7 +76,7 @@ export default function FeatureContent() {
                         </div>
                         <a
                             className="my-5 absolute bottom-0 px-6 py-3 bg-gradient-to-tl hover:bg-gradient-to-br from-[#8627E2] to-[#BE2EE6] rounded-3xl text-white transition-all duration-700 ease-in-out transform hover:scale-105"
-                            href="http://localhost:5173/features"
+                            href="/features"
                         >
                             Know more
                         </a>

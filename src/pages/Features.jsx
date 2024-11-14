@@ -190,11 +190,11 @@ export default function Features() {
 
 
 
-            <div className='flex  justify-center gap-5'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 justify-center gap-5 '>
                 {features.slice(6).map((feature, i) => (
                     <div 
                         key={i} 
-                        className='lg:w-[28%] flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
+                        className='lg:w-[60%]  items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
                     >
                          <div className="w-full ml-5 mt-5">
                             <img className='w-[100px] rounded-full border-black border-[2px] p-2' src={feature.image} alt={feature.title} />

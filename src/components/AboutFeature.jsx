@@ -28,11 +28,11 @@ export default function() {
     ];
 
   return (
-    <section className='flex flex-col lg:flex-row gap-5  items-center lg:p-0 py-10'>
-        <div className='lg:w-1/2'>
+    <section className='flex flex-col lg:flex-row gap-5  items-center lg:p-0 py-10 md:container md:mx-auto mx-5'>
+        <div className='lg:w-1/2 order-1 lg:order-2 animate-wiggle'>
             <img className='p-0 lg:p-20'  src={about} alt="" />
         </div>
-        <div className='lg:w-1/2 flex flex-col gap-5 px-5 lg:px-0'>
+        <div className='lg:w-1/2 flex flex-col order-2 lg:order-1 gap-5 px-5 lg:px-0 lg:animate-right   animate-wiggle'>
           <p className='text-lg lg:text-xl'>PENSAKI is a bundle of SaaS software for Individual ,Family and Friends, and Business user. Users can be added online. pensaki is a a 
                 low cost package with high professional software features and includes:</p>
                 <div className="grid lg:grid-cols-2 grid-cols-1">

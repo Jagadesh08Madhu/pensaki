@@ -31,7 +31,7 @@ const Marquee = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4 ">
       {logos.map((logo, index) => (
         <div key={index} className="flex justify-center items-center">
-          <img src={logo} alt={`Logo ${index + 1}`} className="max-w-28 lg:max-w-60 md:max-w-56 h-auto hover:scale-110 transition-all duration-300 rounded-xl shadow-md hover:border-4 border-gray-600" />
+          <img src={logo} alt={`Logo ${index + 1}`} className="max-w-28 lg:max-w-60 md:max-w-56 h-auto hover:scale-110 transition-all duration-300 rounded-xl shadow-md hover:border-2 border-gray-600" />
         </div>
       ))}
     </div>
