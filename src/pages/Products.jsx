@@ -30,7 +30,7 @@ export default function Products() {
       title: "Business Pensaki Pack",
       subtitle: "Unlock the Power of All-in-One SaaS Solutions for your Business",
       description: `Your ultimate solution for comprehensive digital tools designed to enhance your business efficiency, gain access to all our premium SaaS products`,
-      price: "39.50€/Year",
+      price: "39.50€/Year for 100 users",
       image: businesspack,
       link: "https://www.bobosohomail.com/email_ins/signUp_email.php"
     },
