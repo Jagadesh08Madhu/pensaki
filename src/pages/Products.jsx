@@ -9,9 +9,11 @@ export default function Products() {
       id: 1,
       title: "Individual Pensaki Pack",
       subtitle: "Pensaki Pack - All-in-One Business Solution",
-      description: `Pensaki Pack - All-in-One Business Solution: Get Pensaki Doc Writer, Bitss Cyber Security, Pensaki PDF Converter, 
-      Pensaki.one Email Anti-Spam Manager (Ad-Free), Omada HR, Omada Project Manager, Clasico Payslips, IFgaap Invoicing,
-      IFgaap GL Accounting, Sosay, and Pensaki Vault Cloud Storage—all for just 3 euros per year for individual use.`,
+      description: `For individual use, includes a all in one office study solution with  Doc Writer, students assignments, private email, 
+      access to bobosoho private secured email, call voice video, chat and share.  Pensaki vault cloud storage for your videos, documents, photos 
+      in total security.  On option you may request free and one of the following SaaS prodcuts Bitss Cyber Security, Pensaki.one Email Anti-Spam
+       Manager (Ad-Free), Omada HR, Omada Project Manager for all R&D, assignments, or individual projects,  Clasico Payslips, IFgaap Invoicing, 
+       IFgaap GL Accounting, ,all for just 3 euros per year for individual use.`,
       price: "2€/Year",
       image: individualPack,
       link: "https://www.bobosohomail.com/email_ins/signUp_email.php"
@@ -20,7 +22,9 @@ export default function Products() {
       id: 2,
       title: "Individual Family and Friends Plan",
       subtitle: "Share the Pensaki Pack with up to 30 family members and friends ",
-      description: `Share the Pensaki Pack with up to 30 family members and friends for just €9.50 per year—an ideal solution for group access to premium features at a shared cost.`,
+      description: `Includes all as in individual pack, each member receives their own dedicated pensaki dashboard. Each dashboard dedicated and
+       private to each user with full product features. Share the Pensaki Pack with up to 30 family members and friends for just €9.50 per year—an
+        ideal solution for group access to premium features at a shared cost or gift `,
       price: "9.50€/Year",
       image: familyPack,
       link: "https://www.bobosohomail.com/email_ins/signUp_email.php"
@@ -29,7 +33,9 @@ export default function Products() {
       id: 3,
       title: "Business Pensaki Pack",
       subtitle: "Unlock the Power of All-in-One SaaS Solutions for your Business",
-      description: `Your ultimate solution for comprehensive digital tools designed to enhance your business efficiency, gain access to all our premium SaaS products`,
+      description: `Your ultimate solution for comprehensive digital tools designed to enhance your business efficiency, gain access to all our 
+      premium SaaS products, each employee has a unique dedciated pack , do c writer, pdf convertor, cloud vault storage, email, and access to 
+      bobosoho with full features? SaaS products access controled by  the administrator. "Add to business, never loose date when an employee is absent over long periods".`,
       price: "39.50€/Year for 100 users",
       image: businesspack,
       link: "https://www.bobosohomail.com/email_ins/signUp_email.php"

@@ -8,8 +8,6 @@ import Products from "../pages/Products";
 import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import GeneralCondition from "../pages/GeneralCondition";
-import Contact from "../pages/GlobalSupport"
-import { AccordionCustomIcon } from "../pages/AccordionCustomIcon";
 
 export const router = createBrowserRouter([
     {
@@ -48,10 +46,7 @@ export const router = createBrowserRouter([
                 path: "/general",
                 element :<GeneralCondition/>
             },
-            {
-                path: "/acc",
-                element :<AccordionCustomIcon/>
-            },
+            
         ]
     }
 ])
