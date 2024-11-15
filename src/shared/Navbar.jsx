@@ -71,7 +71,7 @@ export default function Navbar() {
         </Link>
         
         {/* Desktop view */}
-        <div className="hidden lg:flex lg:gap-8 lg:items-center">
+        <div className="hidden lg:flex lg:gap-5 lg:items-center">
           {MenuItems.map((mi, i) => (
             <div key={i}>
               {mi.child ? (
