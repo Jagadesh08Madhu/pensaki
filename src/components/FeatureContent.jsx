@@ -1,29 +1,28 @@
 import React from 'react';
 import logo1 from '../assets/logos/logo1.png';
 import logo2 from '../assets/logos/logo7.png';
-import logo3 from '../assets/logos/logo2.png';
+import logo3 from '../assets/student.png';
 import logo4 from '../assets/blackboard.png';
-import featureBg from '../assets/featurebg.png';
 
 
 export default function FeatureContent() {
     const features = [
         {
             image: logo1,
-            title: "Pensaki BlackBoard",
+            title: "Pensaki Doc writer",
             description: [
-                "Doc writer/manager",
-                "Blackboard note reminder",
-                "Agenda",
-                "Access to all pensaki SaaS software"
-            ]
+                "Effortless Document Creation",
+                "Advanced Formatting Options",
+                "Secure Cloud Integration"           
+             ]
         },
         {
             image: logo3,
-            title: "Bitss Cyber security",
+            title: "Pensaki Student assignment writer ",
             description: [
-                "Advanced website contact form with built-in spam blocking",
-                "Real-time antivirus protection"
+                "Full doc writer features",
+                "PDF import convertor",
+                "Assignemnt reference page",
             ]
         },
         {

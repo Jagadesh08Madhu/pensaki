@@ -8,6 +8,10 @@ import Products from "../pages/Products";
 import CookiePolicy from "../pages/CookiePolicy";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import GeneralCondition from "../pages/GeneralCondition";
+import Pensakidoc from "../components/Pensakidoc";
+import Pensakicloud from "../components/Pensakicloud";
+import Pensakipdf from "../components/Pensakipdf";
+import Pensakistudent from "../components/Pensakistudent";
 
 export const router = createBrowserRouter([
     {
@@ -46,7 +50,22 @@ export const router = createBrowserRouter([
                 path: "/general",
                 element :<GeneralCondition/>
             },
-            
+            {
+                path: "/pensakidoc",
+                element :<Pensakidoc/>
+            },
+            {
+                path: "/pensakicloud",
+                element :<Pensakicloud/>
+            },
+            {
+                path: "/pensakipdf",
+                element: <Pensakipdf/>
+            },
+            {
+                path : "/pensakistudent",
+                element: <Pensakistudent/>
+            }
         ]
     }
 ])

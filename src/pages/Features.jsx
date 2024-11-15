@@ -1,5 +1,5 @@
 import React from 'react';
-import logo1 from '../assets/logos/logo1.png';
+import logo1 from '../assets/blackboard.png';
 import logo2 from '../assets/logos/logo2.png';
 import logo3 from '../assets/logos/logo3.png';
 import logo4 from '../assets/logos/logo4.png';
@@ -7,7 +7,7 @@ import logo5 from '../assets/logos/logo5.png';
 import logo6 from '../assets/logos/logo7.png';
 import logo7 from '../assets/logos/logo8.png';
 import logo9 from '../assets/logos/logo9.png';
-import AboutFeature from '../components/AboutFeature';
+import logo10 from "../assets/student.png"
 
 export default function Features() {
     const features = [
@@ -24,7 +24,7 @@ export default function Features() {
                 "Access to all Pensaki SaaS software",
                 "Click here to know more"
             ],
-            link: "https://pensaki.org/best-document-writing-software/",
+            link: "/pensakidoc",
             linkName: "Pensaki"
         },
         {
@@ -36,7 +36,7 @@ export default function Features() {
                 "Advanced website contact form with built-in spam blocking",
                 "Click here to know more"
             ],
-            link : "bitss.fr",
+            link : "https://bitss.fr/",
             linkName: "Bitss Cyber Security"
         },
         {
@@ -64,7 +64,7 @@ export default function Features() {
                 "Cost-effective solution",
                 "Click here to know more"
             ],
-            link: "https://pensaki.org/convert-pdf-to-doc-file/",
+            link: "/pensakipdf",
             linkName: "Pensaki PDF Convertor"
         },
         {
@@ -91,7 +91,7 @@ export default function Features() {
                 "Cost-effective solution",
                 "Click here to know more"
             ],
-            link: "https://pensaki.org/best-online-cloud-storage/",
+            link: "/pensakicloud",
             linkName: "Pensaki Vault Cloud Storage"
         },
         {
@@ -109,6 +109,7 @@ export default function Features() {
             link: "https://ifgaap.org/",
             linkName: "IFGAAP"
         },
+        
         // {
         //     image: logo8,
         //     title: "Sosay",
@@ -137,27 +138,33 @@ export default function Features() {
             ],
             link: "https://bobosoho.com/",
             linkName: "Bobosoho"
+        },
+        {
+            image : logo10,
+            title: "Pensaki Student assignment writer ",
+            description :[
+               "Full doc writer features",
+                "PDF import convertor",
+                "Assignemnt reference page",
+                " page attachements for references",
+                "spell check",
+                "transloator",
+                "Click here to know more"
+            ],
+            link: "/pensakistudent",
+            linkName: "Pensaki Student assignment writer "
         }
     ];
 
-    const colors = [
-        "bg-[#C47A45]", 
-        "bg-[#FF6A00]", 
-        "bg-[#95867C]",
-        "bg-[#000080]",
-        "bg-blue-200",
-        "bg-red-400",
-        "bg-purple-300"
-    ];
 
     return (
-        <section className='mx-5 md:mx-auto md:container'>
-            <h1 className='text-center text-5xl font-semibold my-5 lg:my-10 lg:text-6xl'>Features</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center '>
-                {features.slice(0,6).map((feature, i) => (
+        <section className='mx-5 md:mx-auto md:container text-white my-10'>
+            <h1 className='text-center text-5xl font-semibold my-5 lg:my-10 lg:text-6xl text-black'>Features</h1>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-10 lg:gap-32 justify-center '>
+                {features.map((feature, i) => (
                     <div 
                         key={i} 
-                        className='flex flex-col items-center justify-start border-4 m-0 my-5 lg:m-10 rounded-2xl hover:border-gray-500 hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-slate-900 pb-10'
+                        className='bg-gradient-to-br  from-[#3F385E] to-[#1B1340] flex flex-col items-center justify-start  rounded-2xl  hover:scale-[1.03] transition-all duration-300 shadow-md shadow-black pb-10'
                     >
                          <div className="w-full ml-5 mt-5">
                             <img className='w-[100px] rounded-full border-black border-[2px] p-2' src={feature.image} alt={feature.title} />
@@ -176,7 +183,7 @@ export default function Features() {
                                     >
                                         {descri}
                                         {descri === "Click here to know more" && feature.link && (
-                                            <a href={feature.link} className='text-blue-500 hover:underline ml-2' target="_blank" rel="noopener noreferrer">
+                                            <a href={feature.link} className='text-red-300 underline hover:underline ml-2' rel="noopener noreferrer">
                                                 {feature.linkName}
                                             </a>
                                         )}
@@ -190,7 +197,7 @@ export default function Features() {
 
 
 
-            <div className='grid grid-cols-1 lg:grid-cols-2 justify-center gap-5 '>
+            {/* <div className='grid grid-cols-1 lg:grid-cols-2 justify-center gap-5 '>
                 {features.slice(6).map((feature, i) => (
                     <div 
                         key={i} 
@@ -214,7 +221,7 @@ export default function Features() {
                                     >
                                         {descri}
                                         {descri === "Click here to know more" && feature.link && (
-                                            <a href={feature.link} className='text-blue-500 hover:underline ml-2' target="_blank" rel="noopener noreferrer">
+                                            <a href={feature.link} className='text-blue-500 hover:underline ml-2' rel="noopener noreferrer">
                                                 {feature.linkName}
                                             </a>
                                         )}
@@ -224,7 +231,7 @@ export default function Features() {
                         </div>
                     </div>
                 ))}
-            </div>
+            </div> */}
         </section>
     );
 }

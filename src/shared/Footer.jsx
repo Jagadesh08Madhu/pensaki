@@ -68,7 +68,7 @@ export default function Footer() {
   return (
     <div className='bg-teal-600'>
         <section className='mx-5 md:container md:mx-auto py-10'>
-            <div className='grid grid-cols-1 lg:grid-cols-2'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 text-white'>
               {/* logo section */}
               <div className='flex flex-col gap-5'>
                 <div>
