@@ -148,7 +148,7 @@ export default function Features() {
                 "Assignemnt reference page",
                 " page attachements for references",
                 "spell check",
-                "transloator",
+                "translator",
                 "Click here to know more"
             ],
             link: "/pensakistudent",
